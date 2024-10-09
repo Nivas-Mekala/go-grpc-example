@@ -1,7 +1,6 @@
 syntax="proto3";
-package coffeeshop;
 
-option go_package="github.com/Nivas-Mekala/go-grpc-example";
+option go_package=".";
 
 service CoffeeShop {
     rpc GetMenu(MenuRequest) returns (Menu){}

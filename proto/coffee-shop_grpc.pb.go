@@ -4,7 +4,7 @@
 // - protoc             v5.28.0
 // source: proto/coffee-shop.proto
 
-package go_grpc_example
+package __
 
 import (
 	context "context"
@@ -19,9 +19,9 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	CoffeeShop_GetMenu_FullMethodName        = "/coffeeshop.CoffeeShop/GetMenu"
-	CoffeeShop_PlaceOrder_FullMethodName     = "/coffeeshop.CoffeeShop/PlaceOrder"
-	CoffeeShop_GetOrderStatus_FullMethodName = "/coffeeshop.CoffeeShop/GetOrderStatus"
+	CoffeeShop_GetMenu_FullMethodName        = "/CoffeeShop/GetMenu"
+	CoffeeShop_PlaceOrder_FullMethodName     = "/CoffeeShop/PlaceOrder"
+	CoffeeShop_GetOrderStatus_FullMethodName = "/CoffeeShop/GetOrderStatus"
 )
 
 // CoffeeShopClient is the client API for CoffeeShop service.
@@ -176,7 +176,7 @@ func _CoffeeShop_GetOrderStatus_Handler(srv interface{}, ctx context.Context, de
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var CoffeeShop_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "coffeeshop.CoffeeShop",
+	ServiceName: "CoffeeShop",
 	HandlerType: (*CoffeeShopServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
