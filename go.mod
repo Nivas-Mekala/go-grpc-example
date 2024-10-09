@@ -1,4 +1,4 @@
-module go-grpc-example
+module github.com/Nivas-Mekala/go-grpc-example
 
 go 1.22.2
 

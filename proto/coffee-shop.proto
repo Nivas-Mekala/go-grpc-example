@@ -3,7 +3,7 @@ syntax="proto3";
 option go_package=".";
 
 service CoffeeShop {
-    rpc GetMenu(MenuRequest) returns (Menu){}
+    rpc GetMenu(MenuRequest) returns (stream Menu){}
     rpc PlaceOrder(Order) returns (Receipt){}
     rpc GetOrderStatus(Receipt) returns (OrderStatus){}
 }
