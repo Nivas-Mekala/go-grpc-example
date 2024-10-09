@@ -4,7 +4,7 @@
 // - protoc             v5.28.0
 // source: proto/coffee-shop.proto
 
-package __
+package go_grpc_example
 
 import (
 	context "context"
