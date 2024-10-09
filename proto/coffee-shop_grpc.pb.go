@@ -4,7 +4,7 @@
 // - protoc             v5.28.0
 // source: proto/coffee-shop.proto
 
-package coffeeshop_protos
+package __
 
 import (
 	context "context"

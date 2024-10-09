@@ -1,4 +1,4 @@
-module coffee-shop-grpc
+module go-grpc-example
 
 go 1.22.2
 
